@@ -84,7 +84,7 @@ public class testCases extends driverFactory {
             //add Pay Grade Currency and save Currency
             adminPageFactory.clickBtnAddPayGrade();
             Thread.sleep(2000);
-            adminPageFactory.addTxtInCurrencyNameTxtBox("Indian Rupee5");
+            adminPageFactory.addTxtInCurrencyNameTxtBox("Indian Rupee");
             adminPageFactory.clickBtnSaveCurrency();
             Thread.sleep(2000);
             //add currency info records by selecting currency and adding min Salary & max Salary
